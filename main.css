@@ -171,8 +171,8 @@
   dt {}
   dd {}
   
-  h1, h2, h3, h4, h5, h6 {font-family:Lumanosimo; color:var(--orange)} 
-  h1 {color:var(--dark-blue);}
+  h1, h2, h3, h4, h5, h6 {font-family:Lumanosimo; } 
+  h1 {color:var(--grey);}
   h2 {}
   h3 {}
   h4 {}
