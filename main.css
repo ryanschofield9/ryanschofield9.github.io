@@ -64,11 +64,11 @@
   }
   
   /*  ----- Page layout blocks -----  */
-  header {background-color:grey ;
+  header {background-color:var(--mauve) ;
           text-align: center;
           padding-top: 5%;
           padding-bottom: 5%;
-          border:10px solid; 
+          border:3px solid; 
           border-color: darkgray;
           line-height: 32px;
           
@@ -119,7 +119,7 @@
        }
   nav a {
           border-radius: 20%;
-          background-color: grey;
+          background-color: var(--mauve);
           padding: 10px; 
           color: black;
           margin:20px; 
@@ -129,7 +129,7 @@
         }
 
   nav a:hover { 
-                background-color: var(--cream);
+                background-color: darkgray;
                 color: black
               }
   nav a:visited{
