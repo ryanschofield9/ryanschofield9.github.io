@@ -68,9 +68,11 @@
           text-align: center;
           padding-top: 5%;
           padding-bottom: 5%;
-          border:3px solid; 
+          border:8px solid; 
           border-color: darkgray;
-          line-height: 32px;
+          line-height: 50px;
+          font-family: Lunasima; 
+        
           
         }
   header img{
