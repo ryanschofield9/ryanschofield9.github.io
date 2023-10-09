@@ -64,7 +64,7 @@
   }
   
   /*  ----- Page layout blocks -----  */
-  header {background-color:var(--mauve) ;
+  header {background-color:grey ;
           text-align: center;
           padding-top: 5%;
           padding-bottom: 5%;
@@ -119,7 +119,7 @@
        }
   nav a {
           border-radius: 20%;
-          background-color: var(--mauve);
+          background-color: grey;
           padding: 10px; 
           color: black;
           margin:20px; 
