@@ -36,7 +36,9 @@
     --orange: rgb(253, 183, 105);
     --orange-T: rgba(253, 183, 105, 0.6); 
     --yellow:rgb(232,132,132); 
-    --lavendar: rgba(172, 104, 201, 0.929);  
+    --lavendar: rgba(172, 104, 201, 0.929); 
+    --lavendar-light: rgba(183, 157, 195, 0.929); 
+    
 
     /*--custom-embellishment-name:; */
   }
@@ -64,7 +66,7 @@
   }
   
   /*  ----- Page layout blocks -----  */
-  header {background-color:var(--lavendar);
+  header {background-color:grey;
           text-align: center;
           padding-top: 5%;
           padding-bottom: 5%;
@@ -92,7 +94,7 @@
   div {}
   aside {}
   footer {
-          background-color:var(--lavendar);
+          background-color: grey;
           text-align: center;
           padding-top: 5%;
           padding-bottom: 5%;
