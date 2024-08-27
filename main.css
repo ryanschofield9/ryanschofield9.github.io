@@ -36,6 +36,7 @@
     --orange: rgb(253, 183, 105);
     --orange-T: rgba(253, 183, 105, 0.6); 
     --yellow:rgb(232,132,132); 
+    --lavendar: rgba(211, 192, 219, 0.929)
     
 
     /*--custom-embellishment-name:; */
@@ -64,7 +65,7 @@
   }
   
   /*  ----- Page layout blocks -----  */
-  header {background-color:grey ;
+  header {background-color:var(--lavendar) ;
           text-align: center;
           padding-top: 5%;
           padding-bottom: 5%;
