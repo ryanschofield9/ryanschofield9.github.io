@@ -65,7 +65,7 @@
   }
   
   /*  ----- Page layout blocks -----  */
-  header {background-color:var(--lavendar) ;
+  header {background-color:var(--lavendar);
           text-align: center;
           padding-top: 5%;
           padding-bottom: 5%;
