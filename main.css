@@ -204,7 +204,7 @@
   ins {}
   
   /*  ----- Table ----- */
-  table {}
+  table {width: 500px; height: 500px; }
   caption {}
   thead {}
   tbody {}
