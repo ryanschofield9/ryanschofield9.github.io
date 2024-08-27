@@ -71,7 +71,7 @@
           padding-top: 5%;
           padding-bottom: 5%;
           border:8px solid; 
-          border-color: var(--lightlavendar);
+          border-color: grey;
           line-height: 50px;
           font-family:Lumanosimo;
           font-size: 200%;
@@ -87,7 +87,7 @@
   section {}
     article {
               border-bottom: 3px solid; 
-              border-color: darkgrey;
+              border-color: grey;
             }
       #topic1 {}
       #topic2 {}
@@ -99,7 +99,7 @@
           padding-top: 5%;
           padding-bottom: 5%;
           border:8px solid; 
-          border-color: var(--lightlavendar); 
+          border-color: grey; 
           color:black; 
           font-weight: bold;
   }
