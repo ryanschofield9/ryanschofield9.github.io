@@ -71,7 +71,7 @@
           padding-top: 5%;
           padding-bottom: 5%;
           border:8px solid; 
-          border-color: var(--lavendar-light);
+          border-color: darkgray;
           line-height: 50px;
           font-family:Lumanosimo;
           font-size: 200%;
@@ -94,7 +94,7 @@
   div {}
   aside {}
   footer {
-          background-color: grey;
+          background-color:var(--lavendar);
           text-align: center;
           padding-top: 5%;
           padding-bottom: 5%;
