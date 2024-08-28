@@ -252,6 +252,7 @@
   audio {}
   embed {}
   object {}
+  img{max-width: 50%;}
   
   /*  ----- Classes for alignment, positioning, widths, grids, embellishments, and animation -----  */
   .gallery {
