@@ -29,7 +29,7 @@
         </p>
         <center>
             <figure>
-                <img src="sumobot-assembly.jpg" alt = "Sumobot"/> 
+                <img src="images/sumobot-assembly.jpg" alt = "Sumobot"/> <img src="images/PresentationSumobot.jpg" alt = "Presentation"/> 
             </figure>
         </center>
 
@@ -99,11 +99,28 @@
     <article>
         <h2>Masters Project</h2>
         <p>
-            Using a UR5e arm, I created a system that will measure the diameter of the branch it is placed in front of. The majors steps of this system are 
-            one getting parallel to the branch, two performing optical flow, and three making contact with the branch. This system was coded in python and uses the 
-            Robotic Operating System (ROS2). The end effecor was designed in SolidWorks and 3D printed. It uses 2 low-cost time-of-flight (TOF) sensors, a load cell, an RGB camera, and an arduino. 
+            Using a UR5e arm, I created a system that will measure the diameter of the branch it is placed in front of. The majors 
+            steps of this system are 
+            <ol>
+                <li>Get Parallel to the branch </li>
+                <li>Perform Optical Flow</li>
+                <li>Make Contact with the branch</li>
+                <li>Using the Optical Flow Mask and Known Distance of the Branch, Determine the Diameter </li>
+            </ol>
+            This system was coded in python and uses the Robotic Operating System (ROS2). The end effecor was designed in SolidWorks
+            and 3D printed. It uses 2 low-cost time-of-flight (TOF) sensors, a load cell, an RGB camera, and an arduino. 
         </p>
-        <p> <a href="https://github.com/ryanschofield9/Ground_Truth_Ros">Github</a></p>
+        <p>
+            This system is used to measure trees in an orchard to get ground truth measurements. These measurments will be compared to the 
+            3D reconstruction of the tree to determine the reconstruction accuracy. 
+        </p>
+        <center>
+            <figure>
+                <img src="images/GroundTruthAssembly.jpg" alt = "GroundTruth"/> <img src="images/ProxyTree.jpg" alt = "Proxy"/> 
+            </figure>
+        </center>
+        
+        <p> <a href="https://github.com/ryanschofield9/Ground_Truth_Ros">Link to Github with Code</a></p>
 
         <h3>Skills Used</h3>
         <table boarder = '0'>
